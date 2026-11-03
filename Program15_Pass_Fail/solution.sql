@@ -12,6 +12,4 @@ BEGIN
 END $$
 
 DELIMITER ;
-
--- Test the procedure
 CALL CheckResult(75);
